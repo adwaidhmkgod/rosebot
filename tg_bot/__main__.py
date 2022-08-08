@@ -152,7 +152,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="movieempirev3 ", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="SERIES CHANNEL", url="https://t.me/me_series000")],
                      [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/movieempirev3"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/movieempirev3")],
-                     [InlineKeyboardButton(text="Movie Request", url="https://t.me/movie_empire000"), InlineKeyboardButton(text="🛠 Owner", url="@me_adwaidh".format(bot.username)) ]]))
+                     [InlineKeyboardButton(text="Movie Request", url="https://t.me/movie_empire000"), InlineKeyboardButton(text="🛠 Owner", url="https://meadwaidh.blogspot.com/?m=1".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
